@@ -11,4 +11,6 @@ public class Product {
     private String name;
     @JsonProperty("brand")
     private String brand;
+    @JsonProperty("value")
+    private Long value;
 }
