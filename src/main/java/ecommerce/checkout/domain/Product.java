@@ -9,8 +9,6 @@ public class Product {
     private Long id;
     @JsonProperty("name")
     private String name;
-    @JsonProperty("brand")
-    private String brand;
     @JsonProperty("value")
     private Long value;
 }
